@@ -16,16 +16,16 @@ with urllib.request.urlopen("https://www.data.gouv.fr/fr/datasets/r/556d828f-264
 with urllib.request.urlopen("https://www.data.gouv.fr/fr/datasets/r/0fb3fe0e-2a69-45ac-aca7-6923d18698bc") as url:
     df_parking = json.loads(url.read().decode())
 
-
+# Supprimer les entrées sans géolocalisation
 def filterData(x):
     if "geo" in x["fields"].keys():
         return(True)
     return(False)
 
-
 df_parking = list(filter(filterData, df_parking))
-for row in df_parking:
-    print(row)
+
+
+
 # --------- Graphe Chargeurs Electriques --------- #
 graphE = Graph(identifier="ElectricChargers")
 graphP = Graph(identifier="Parkings")
