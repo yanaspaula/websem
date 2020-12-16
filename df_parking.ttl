@@ -1,0 +1,155 @@
+@prefix ex: <http://example.com/#> .
+@prefix geo: <https://schema.org/GeoCoordinates/> .
+@prefix mv: <http://schema.mobivoc.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semweb.com/project/ParkingStation#1151> ex:hasFreePlaces 0,
+        4,
+        7 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1151" ;
+    geo:latitude 48.882697 ;
+    geo:longitude 2.344013 .
+
+<http://www.semweb.com/project/ParkingStation#1152> ex:hasFreePlaces 0,
+        32 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1152" ;
+    geo:latitude 48.827057 ;
+    geo:longitude 2.341523 .
+
+<http://www.semweb.com/project/ParkingStation#1401> ex:hasFreePlaces 3,
+        10,
+        11,
+        330 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1401" ;
+    geo:latitude 48.871505 ;
+    geo:longitude 2.333759 .
+
+<http://www.semweb.com/project/ParkingStation#1452> ex:hasFreePlaces 0 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1452" ;
+    geo:latitude 48.849577 ;
+    geo:longitude 2.350867 .
+
+<http://www.semweb.com/project/ParkingStation#1501> ex:hasFreePlaces 3,
+        127 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1501" ;
+    geo:latitude 48.850912 ;
+    geo:longitude 2.341171 .
+
+<http://www.semweb.com/project/ParkingStation#1502> ex:hasFreePlaces 0,
+        16,
+        97,
+        788 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1502" ;
+    geo:latitude 48.845002 ;
+    geo:longitude 2.375691 .
+
+<http://www.semweb.com/project/ParkingStation#1503> ex:hasFreePlaces 10,
+        25 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1503" ;
+    geo:latitude 48.884606 ;
+    geo:longitude 2.321516 .
+
+<http://www.semweb.com/project/ParkingStation#1504> ex:hasFreePlaces 0,
+        7 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1504" ;
+    geo:latitude 48.84622 ;
+    geo:longitude 2.387776 .
+
+<http://www.semweb.com/project/ParkingStation#1551> ex:hasFreePlaces 0 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1551" ;
+    geo:latitude 48.8566 ;
+    geo:longitude 2.349481 .
+
+<http://www.semweb.com/project/ParkingStation#1601> ex:hasFreePlaces 0,
+        222 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1601" ;
+    geo:latitude 48.864994 ;
+    geo:longitude 2.33298 .
+
+<http://www.semweb.com/project/ParkingStation#1602> ex:hasFreePlaces 30,
+        158 ;
+    ex:hastype "relais"^^xsd:string ;
+    mv:id "1602" ;
+    geo:latitude 48.85378 ;
+    geo:longitude 2.7689 .
+
+<http://www.semweb.com/project/ParkingStation#1603> ex:hasFreePlaces 69 ;
+    ex:hastype "relais"^^xsd:string ;
+    mv:id "1603" ;
+    geo:latitude 48.8759 ;
+    geo:longitude 2.64306 .
+
+<http://www.semweb.com/project/ParkingStation#1604> ex:hasFreePlaces 0 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1604" ;
+    geo:latitude 48.874147 ;
+    geo:longitude 2.640764 .
+
+<http://www.semweb.com/project/ParkingStation#1651> ex:hasFreePlaces 11,
+        47,
+        86 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1651" ;
+    geo:latitude 48.82097 ;
+    geo:longitude 2.324525 .
+
+<http://www.semweb.com/project/ParkingStation#1753> ex:hasFreePlaces 0,
+        3,
+        78 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1753" ;
+    geo:latitude 48.850541 ;
+    geo:longitude 2.348671 .
+
+<http://www.semweb.com/project/ParkingStation#1754> ex:hasFreePlaces 3,
+        12,
+        447 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1754" ;
+    geo:latitude 48.798667 ;
+    geo:longitude 2.451794 .
+
+<http://www.semweb.com/project/ParkingStation#1805> ex:hasFreePlaces 30 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1805" ;
+    geo:latitude 48.817356 ;
+    geo:longitude 2.344178 .
+
+<http://www.semweb.com/project/ParkingStation#1851> ex:hasFreePlaces 0,
+        117 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1851" ;
+    geo:latitude 48.858396 ;
+    geo:longitude 2.350484 .
+
+<http://www.semweb.com/project/ParkingStation#1901> ex:hasFreePlaces 5,
+        262 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1901" ;
+    geo:latitude 48.833875 ;
+    geo:longitude 2.382319 .
+
+<http://www.semweb.com/project/ParkingStation#1951> ex:hasFreePlaces 0,
+        100 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1951" ;
+    geo:latitude 48.873379 ;
+    geo:longitude 2.369972 .
+
+<http://www.semweb.com/project/ParkingStation#1953> ex:hasFreePlaces 7,
+        148 ;
+    ex:hastype "public"^^xsd:string ;
+    mv:id "1953" ;
+    geo:latitude 48.87929 ;
+    geo:longitude 2.40177 .
+

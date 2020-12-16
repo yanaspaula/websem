@@ -1,0 +1,1955 @@
+@prefix ex: <http://example.com/#> .
+@prefix geo: <https://schema.org/GeoCoordinates/> .
+@prefix mv: <http://schema.mobivoc.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1011> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1011" ;
+    geo:latitude 48.86424 ;
+    geo:longitude 2.397724 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1012> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1012" ;
+    geo:latitude 48.86424 ;
+    geo:longitude 2.397724 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1013> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1013" ;
+    geo:latitude 48.86424 ;
+    geo:longitude 2.397724 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1111> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1111" ;
+    geo:latitude 48.861016 ;
+    geo:longitude 2.28308 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1112> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1112" ;
+    geo:latitude 48.861016 ;
+    geo:longitude 2.28308 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1113> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1113" ;
+    geo:latitude 48.861016 ;
+    geo:longitude 2.28308 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1211> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1211" ;
+    geo:latitude 48.824388 ;
+    geo:longitude 2.336857 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1212> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1212" ;
+    geo:latitude 48.824388 ;
+    geo:longitude 2.336857 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1213> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1213" ;
+    geo:latitude 48.824388 ;
+    geo:longitude 2.336857 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1311> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1311" ;
+    geo:latitude 48.88264 ;
+    geo:longitude 2.335728 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1312> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1312" ;
+    geo:latitude 48.88264 ;
+    geo:longitude 2.335728 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1313> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1313" ;
+    geo:latitude 48.88264 ;
+    geo:longitude 2.335728 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1511> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1511" ;
+    geo:latitude 48.846295 ;
+    geo:longitude 2.3748774000000594 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1512> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1512" ;
+    geo:latitude 48.846295 ;
+    geo:longitude 2.3748774000000594 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1513> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1513" ;
+    geo:latitude 48.846295 ;
+    geo:longitude 2.3748774000000594 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1611> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1611" ;
+    geo:latitude 48.889731 ;
+    geo:longitude 2.33891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1612> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1612" ;
+    geo:latitude 48.889731 ;
+    geo:longitude 2.33891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1613" ;
+    geo:latitude 48.889731 ;
+    geo:longitude 2.33891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1711> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1711" ;
+    geo:latitude 48.8452653 ;
+    geo:longitude 2.4112383000000364 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1712> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1712" ;
+    geo:latitude 48.8452653 ;
+    geo:longitude 2.4112383000000364 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1713> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1713" ;
+    geo:latitude 48.8452653 ;
+    geo:longitude 2.4112383000000364 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1811> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1811" ;
+    geo:latitude 48.846761 ;
+    geo:longitude 2.268339 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1812> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI1812" ;
+    geo:latitude 48.846761 ;
+    geo:longitude 2.268339 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI1813> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI1813" ;
+    geo:latitude 48.846761 ;
+    geo:longitude 2.268339 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2011> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2011" ;
+    geo:latitude 48.882718 ;
+    geo:longitude 2.319768 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2012> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2012" ;
+    geo:latitude 48.882718 ;
+    geo:longitude 2.319768 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2013> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2013" ;
+    geo:latitude 48.882718 ;
+    geo:longitude 2.319768 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI211> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI211" ;
+    geo:latitude 48.878897 ;
+    geo:longitude 2.355064 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI212> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI212" ;
+    geo:latitude 48.878897 ;
+    geo:longitude 2.355064 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI213> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI213" ;
+    geo:latitude 48.878897 ;
+    geo:longitude 2.355064 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2411> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2411" ;
+    geo:latitude 48.841742 ;
+    geo:longitude 2.375639 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2412> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2412" ;
+    geo:latitude 48.841742 ;
+    geo:longitude 2.375639 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2413> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2413" ;
+    geo:latitude 48.841742 ;
+    geo:longitude 2.375639 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2511> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2511" ;
+    geo:latitude 48.89311 ;
+    geo:longitude 2.34066 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2512> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2512" ;
+    geo:latitude 48.89311 ;
+    geo:longitude 2.34066 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2513> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2513" ;
+    geo:latitude 48.89311 ;
+    geo:longitude 2.34066 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2711> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2711" ;
+    geo:latitude 48.86003 ;
+    geo:longitude 2.34046 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2712> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2712" ;
+    geo:latitude 48.86003 ;
+    geo:longitude 2.34046 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2713> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2713" ;
+    geo:latitude 48.86003 ;
+    geo:longitude 2.34046 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2811> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2811" ;
+    geo:latitude 48.864719 ;
+    geo:longitude 2.359043 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2812> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2812" ;
+    geo:latitude 48.864719 ;
+    geo:longitude 2.359043 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2813" ;
+    geo:latitude 48.864719 ;
+    geo:longitude 2.359043 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2911" ;
+    geo:latitude 48.854057 ;
+    geo:longitude 2.34556 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2912> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI2912" ;
+    geo:latitude 48.854057 ;
+    geo:longitude 2.34556 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI2913> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI2913" ;
+    geo:latitude 48.854057 ;
+    geo:longitude 2.34556 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3011> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3011" ;
+    geo:latitude 48.845715 ;
+    geo:longitude 2.345032 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3012> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3012" ;
+    geo:latitude 48.845715 ;
+    geo:longitude 2.345032 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3013> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3013" ;
+    geo:latitude 48.845715 ;
+    geo:longitude 2.345032 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI311> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI311" ;
+    geo:latitude 48.876162 ;
+    geo:longitude 2.286403 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3111> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3111" ;
+    geo:latitude 48.85104 ;
+    geo:longitude 2.345493 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3112> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3112" ;
+    geo:latitude 48.85104 ;
+    geo:longitude 2.345493 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3113> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3113" ;
+    geo:latitude 48.85104 ;
+    geo:longitude 2.345493 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI312> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI312" ;
+    geo:latitude 48.876162 ;
+    geo:longitude 2.286403 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI313> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI313" ;
+    geo:latitude 48.876162 ;
+    geo:longitude 2.286403 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3311> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3311" ;
+    geo:latitude 48.8524588 ;
+    geo:longitude 2.3414834000000155 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3312> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3312" ;
+    geo:latitude 48.8524588 ;
+    geo:longitude 2.3414834000000155 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3313> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3313" ;
+    geo:latitude 48.8524588 ;
+    geo:longitude 2.3414834000000155 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3411> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3411" ;
+    geo:latitude 48.85212550000001 ;
+    geo:longitude 2.331345899999974 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3412> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3412" ;
+    geo:latitude 48.85212550000001 ;
+    geo:longitude 2.331345899999974 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3413> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3413" ;
+    geo:latitude 48.85212550000001 ;
+    geo:longitude 2.331345899999974 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3511> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3511" ;
+    geo:latitude 48.849911 ;
+    geo:longitude 2.307126 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3512> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3512" ;
+    geo:latitude 48.849911 ;
+    geo:longitude 2.307126 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3513> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3513" ;
+    geo:latitude 48.849911 ;
+    geo:longitude 2.307126 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3611> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3611" ;
+    geo:latitude 48.857552 ;
+    geo:longitude 2.30437 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3612> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3612" ;
+    geo:latitude 48.857552 ;
+    geo:longitude 2.30437 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3613> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3613" ;
+    geo:latitude 48.857552 ;
+    geo:longitude 2.30437 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3811> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3811" ;
+    geo:latitude 48.847931 ;
+    geo:longitude 2.309952 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3812> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3812" ;
+    geo:latitude 48.847931 ;
+    geo:longitude 2.309952 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3813> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3813" ;
+    geo:latitude 48.847931 ;
+    geo:longitude 2.309952 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3911> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3911" ;
+    geo:latitude 48.852665 ;
+    geo:longitude 2.31368 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3912> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI3912" ;
+    geo:latitude 48.852665 ;
+    geo:longitude 2.31368 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI3913> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI3913" ;
+    geo:latitude 48.852665 ;
+    geo:longitude 2.31368 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI411> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI411" ;
+    geo:latitude 48.871465 ;
+    geo:longitude 2.289894 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI412> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI412" ;
+    geo:latitude 48.871465 ;
+    geo:longitude 2.289894 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI413> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI413" ;
+    geo:latitude 48.871465 ;
+    geo:longitude 2.289894 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4211> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4211" ;
+    geo:latitude 48.875854 ;
+    geo:longitude 2.309542 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4212> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI4212" ;
+    geo:latitude 48.875854 ;
+    geo:longitude 2.309542 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4213> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4213" ;
+    geo:latitude 48.875854 ;
+    geo:longitude 2.309542 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4511> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4511" ;
+    geo:latitude 48.858952 ;
+    geo:longitude 2.379874 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4512> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI4512" ;
+    geo:latitude 48.858952 ;
+    geo:longitude 2.379874 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4513> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4513" ;
+    geo:latitude 48.858952 ;
+    geo:longitude 2.379874 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4611> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4611" ;
+    geo:latitude 48.847485 ;
+    geo:longitude 2.401736 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4612> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI4612" ;
+    geo:latitude 48.847485 ;
+    geo:longitude 2.401736 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4613> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4613" ;
+    geo:latitude 48.847485 ;
+    geo:longitude 2.401736 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4811> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4811" ;
+    geo:latitude 48.832893 ;
+    geo:longitude 2.363025 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4812> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI4812" ;
+    geo:latitude 48.832893 ;
+    geo:longitude 2.363025 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4813" ;
+    geo:latitude 48.832893 ;
+    geo:longitude 2.363025 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4911> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4911" ;
+    geo:latitude 48.831448 ;
+    geo:longitude 2.320052 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4912> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI4912" ;
+    geo:latitude 48.831448 ;
+    geo:longitude 2.320052 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI4913> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI4913" ;
+    geo:latitude 48.831448 ;
+    geo:longitude 2.320052 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5011> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5011" ;
+    geo:latitude 48.83086 ;
+    geo:longitude 2.325895 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5012> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5012" ;
+    geo:latitude 48.83086 ;
+    geo:longitude 2.325895 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5013> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5013" ;
+    geo:latitude 48.83086 ;
+    geo:longitude 2.325895 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI511> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI511" ;
+    geo:latitude 48.865501 ;
+    geo:longitude 2.315463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5111> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5111" ;
+    geo:latitude 48.841198 ;
+    geo:longitude 2.323891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5112> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5112" ;
+    geo:latitude 48.841198 ;
+    geo:longitude 2.323891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5113> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5113" ;
+    geo:latitude 48.841198 ;
+    geo:longitude 2.323891 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI512> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI512" ;
+    geo:latitude 48.865501 ;
+    geo:longitude 2.315463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI513> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI513" ;
+    geo:latitude 48.865501 ;
+    geo:longitude 2.315463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5211> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5211" ;
+    geo:latitude 48.86154 ;
+    geo:longitude 2.31159 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5212> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5212" ;
+    geo:latitude 48.86154 ;
+    geo:longitude 2.31159 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5213> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5213" ;
+    geo:latitude 48.86154 ;
+    geo:longitude 2.31159 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5311> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5311" ;
+    geo:latitude 48.835709 ;
+    geo:longitude 2.286912 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5312> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5312" ;
+    geo:latitude 48.835709 ;
+    geo:longitude 2.286912 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5313> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5313" ;
+    geo:latitude 48.835709 ;
+    geo:longitude 2.286912 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5611> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5611" ;
+    geo:latitude 48.828454 ;
+    geo:longitude 2.3006427999999914 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5612> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5612" ;
+    geo:latitude 48.828454 ;
+    geo:longitude 2.3006427999999914 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5613" ;
+    geo:latitude 48.828454 ;
+    geo:longitude 2.3006427999999914 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5711> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5711" ;
+    geo:latitude 48.885689 ;
+    geo:longitude 2.297463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5712> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5712" ;
+    geo:latitude 48.885689 ;
+    geo:longitude 2.297463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5713> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5713" ;
+    geo:latitude 48.885689 ;
+    geo:longitude 2.297463 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5811> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5811" ;
+    geo:latitude 48.879654 ;
+    geo:longitude 2.302442 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5812> ex:IsAvailable "En programmation"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5812" ;
+    geo:latitude 48.879654 ;
+    geo:longitude 2.302442 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5813> ex:IsAvailable "En programmation"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5813" ;
+    geo:latitude 48.879654 ;
+    geo:longitude 2.302442 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5911> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5911" ;
+    geo:latitude 48.883282 ;
+    geo:longitude 2.286938 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5912> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI5912" ;
+    geo:latitude 48.883282 ;
+    geo:longitude 2.286938 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI5913> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI5913" ;
+    geo:latitude 48.883282 ;
+    geo:longitude 2.286938 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6011> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6011" ;
+    geo:latitude 48.874134 ;
+    geo:longitude 2.405196 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6012> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6012" ;
+    geo:latitude 48.874134 ;
+    geo:longitude 2.405196 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6013> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6013" ;
+    geo:latitude 48.874134 ;
+    geo:longitude 2.405196 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI611> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI611" ;
+    geo:latitude 48.882794 ;
+    geo:longitude 2.382705 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI612> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI612" ;
+    geo:latitude 48.882794 ;
+    geo:longitude 2.382705 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI613" ;
+    geo:latitude 48.882794 ;
+    geo:longitude 2.382705 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6211> ex:IsAvailable "En programmation"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6211" ;
+    geo:latitude 48.880698 ;
+    geo:longitude 2.321369 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6212> ex:IsAvailable "En programmation"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6212" ;
+    geo:latitude 48.880698 ;
+    geo:longitude 2.321369 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6213> ex:IsAvailable "En programmation"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6213" ;
+    geo:latitude 48.880698 ;
+    geo:longitude 2.321369 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6311> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6311" ;
+    geo:latitude 48.870628 ;
+    geo:longitude 2.33321 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6312> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6312" ;
+    geo:latitude 48.870628 ;
+    geo:longitude 2.33321 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6313> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6313" ;
+    geo:latitude 48.870628 ;
+    geo:longitude 2.33321 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6411> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6411" ;
+    geo:latitude 48.865788 ;
+    geo:longitude 2.342244 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6412> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6412" ;
+    geo:latitude 48.865788 ;
+    geo:longitude 2.342244 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6413> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6413" ;
+    geo:latitude 48.865788 ;
+    geo:longitude 2.342244 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6511> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6511" ;
+    geo:latitude 48.84824 ;
+    geo:longitude 2.339865 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6512> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6512" ;
+    geo:latitude 48.84824 ;
+    geo:longitude 2.339865 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6513> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6513" ;
+    geo:latitude 48.84824 ;
+    geo:longitude 2.339865 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6711> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6711" ;
+    geo:latitude 48.878799 ;
+    geo:longitude 2.368851 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6712> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6712" ;
+    geo:latitude 48.878799 ;
+    geo:longitude 2.368851 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6713> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6713" ;
+    geo:latitude 48.878799 ;
+    geo:longitude 2.368851 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6811> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6811" ;
+    geo:latitude 48.875465 ;
+    geo:longitude 2.360103 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6812> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6812" ;
+    geo:latitude 48.875465 ;
+    geo:longitude 2.360103 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6813" ;
+    geo:latitude 48.875465 ;
+    geo:longitude 2.360103 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6911" ;
+    geo:latitude 48.847446 ;
+    geo:longitude 2.38804 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6912> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI6912" ;
+    geo:latitude 48.847446 ;
+    geo:longitude 2.38804 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI6913> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI6913" ;
+    geo:latitude 48.847446 ;
+    geo:longitude 2.38804 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7011> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7011" ;
+    geo:latitude 48.834084 ;
+    geo:longitude 2.405248 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7012> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7012" ;
+    geo:latitude 48.834084 ;
+    geo:longitude 2.405248 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7013> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7013" ;
+    geo:latitude 48.834084 ;
+    geo:longitude 2.405248 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7111> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7111" ;
+    geo:latitude 48.826504 ;
+    geo:longitude 2.343366 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7112> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7112" ;
+    geo:latitude 48.826504 ;
+    geo:longitude 2.343366 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7113> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7113" ;
+    geo:latitude 48.826504 ;
+    geo:longitude 2.343366 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7211> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7211" ;
+    geo:latitude 48.82085 ;
+    geo:longitude 2.343626 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7212> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7212" ;
+    geo:latitude 48.82085 ;
+    geo:longitude 2.343626 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7213> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7213" ;
+    geo:latitude 48.82085 ;
+    geo:longitude 2.343626 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7411> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7411" ;
+    geo:latitude 48.834705 ;
+    geo:longitude 2.305529 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7412> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7412" ;
+    geo:latitude 48.834705 ;
+    geo:longitude 2.305529 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7413> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7413" ;
+    geo:latitude 48.834705 ;
+    geo:longitude 2.305529 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7511> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7511" ;
+    geo:latitude 48.846214 ;
+    geo:longitude 2.279884 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7512> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7512" ;
+    geo:latitude 48.846214 ;
+    geo:longitude 2.279884 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7513> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7513" ;
+    geo:latitude 48.846214 ;
+    geo:longitude 2.279884 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7611> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7611" ;
+    geo:latitude 48.863602 ;
+    geo:longitude 2.27153 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7612> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7612" ;
+    geo:latitude 48.863602 ;
+    geo:longitude 2.27153 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7613" ;
+    geo:latitude 48.863602 ;
+    geo:longitude 2.27153 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7711> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7711" ;
+    geo:latitude 48.837055 ;
+    geo:longitude 2.259932 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7712> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7712" ;
+    geo:latitude 48.837055 ;
+    geo:longitude 2.259932 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7713> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7713" ;
+    geo:latitude 48.837055 ;
+    geo:longitude 2.259932 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7811> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7811" ;
+    geo:latitude 48.846653 ;
+    geo:longitude 2.258213 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7812> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7812" ;
+    geo:latitude 48.846653 ;
+    geo:longitude 2.258213 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7813" ;
+    geo:latitude 48.846653 ;
+    geo:longitude 2.258213 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7911" ;
+    geo:latitude 48.881168 ;
+    geo:longitude 2.313751 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7912> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI7912" ;
+    geo:latitude 48.881168 ;
+    geo:longitude 2.313751 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI7913> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI7913" ;
+    geo:latitude 48.881168 ;
+    geo:longitude 2.313751 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8011> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8011" ;
+    geo:latitude 48.897671 ;
+    geo:longitude 2.352758 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8012> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8012" ;
+    geo:latitude 48.897671 ;
+    geo:longitude 2.352758 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8013> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8013" ;
+    geo:latitude 48.897671 ;
+    geo:longitude 2.352758 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI811> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI811" ;
+    geo:latitude 48.8847205 ;
+    geo:longitude 2.3699612000000343 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8111> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8111" ;
+    geo:latitude 48.891102 ;
+    geo:longitude 2.327102 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8112> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8112" ;
+    geo:latitude 48.891102 ;
+    geo:longitude 2.327102 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8113> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8113" ;
+    geo:latitude 48.891102 ;
+    geo:longitude 2.327102 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI812> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI812" ;
+    geo:latitude 48.8847205 ;
+    geo:longitude 2.3699612000000343 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI813" ;
+    geo:latitude 48.8847205 ;
+    geo:longitude 2.3699612000000343 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8311> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8311" ;
+    geo:latitude 48.880421 ;
+    geo:longitude 2.398476 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8312> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8312" ;
+    geo:latitude 48.880421 ;
+    geo:longitude 2.398476 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8313> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8313" ;
+    geo:latitude 48.880421 ;
+    geo:longitude 2.398476 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8411> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8411" ;
+    geo:latitude 48.863766 ;
+    geo:longitude 2.41177 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8412> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8412" ;
+    geo:latitude 48.863766 ;
+    geo:longitude 2.41177 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8413> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8413" ;
+    geo:latitude 48.863766 ;
+    geo:longitude 2.41177 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8611> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8611" ;
+    geo:latitude 48.89061 ;
+    geo:longitude 2.35423 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8612> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8612" ;
+    geo:latitude 48.89061 ;
+    geo:longitude 2.35423 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8613" ;
+    geo:latitude 48.89061 ;
+    geo:longitude 2.35423 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8811> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8811" ;
+    geo:latitude 48.82312 ;
+    geo:longitude 2.367798 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8812> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8812" ;
+    geo:latitude 48.82312 ;
+    geo:longitude 2.367798 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8813> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8813" ;
+    geo:latitude 48.82312 ;
+    geo:longitude 2.367798 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8911" ;
+    geo:latitude 48.88842 ;
+    geo:longitude 2.388149 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8912> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI8912" ;
+    geo:latitude 48.88842 ;
+    geo:longitude 2.388149 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI8913> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI8913" ;
+    geo:latitude 48.88842 ;
+    geo:longitude 2.388149 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI911" ;
+    geo:latitude 48.878965 ;
+    geo:longitude 2.293606 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9111> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9111" ;
+    geo:latitude 48.857094 ;
+    geo:longitude 2.403802 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9112> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9112" ;
+    geo:latitude 48.857094 ;
+    geo:longitude 2.403802 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9113> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9113" ;
+    geo:latitude 48.857094 ;
+    geo:longitude 2.403802 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI912> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI912" ;
+    geo:latitude 48.878965 ;
+    geo:longitude 2.293606 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI913> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI913" ;
+    geo:latitude 48.878965 ;
+    geo:longitude 2.293606 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9211> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9211" ;
+    geo:latitude 48.841663 ;
+    geo:longitude 2.286931 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9212> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9212" ;
+    geo:latitude 48.841663 ;
+    geo:longitude 2.286931 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9213> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9213" ;
+    geo:latitude 48.841663 ;
+    geo:longitude 2.286931 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9311> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9311" ;
+    geo:latitude 48.859184 ;
+    geo:longitude 2.273944 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9312> ex:IsAvailable "Occupé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9312" ;
+    geo:latitude 48.859184 ;
+    geo:longitude 2.273944 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9313> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9313" ;
+    geo:latitude 48.859184 ;
+    geo:longitude 2.273944 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9411> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9411" ;
+    geo:latitude 48.833603 ;
+    geo:longitude 2.389173 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9412> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9412" ;
+    geo:latitude 48.833603 ;
+    geo:longitude 2.389173 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9413> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9413" ;
+    geo:latitude 48.833603 ;
+    geo:longitude 2.389173 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9511> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9511" ;
+    geo:latitude 48.868511 ;
+    geo:longitude 2.295469 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9512> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9512" ;
+    geo:latitude 48.868511 ;
+    geo:longitude 2.295469 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9513> ex:IsAvailable "Hors communication"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9513" ;
+    geo:latitude 48.868511 ;
+    geo:longitude 2.295469 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9611> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9611" ;
+    geo:latitude 48.835499 ;
+    geo:longitude 2.34965 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9612> ex:IsAvailable "Neutralisé"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9612" ;
+    geo:latitude 48.835499 ;
+    geo:longitude 2.34965 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9613> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9613" ;
+    geo:latitude 48.835499 ;
+    geo:longitude 2.34965 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9711> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9711" ;
+    geo:latitude 48.839947 ;
+    geo:longitude 2.397822 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9712> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9712" ;
+    geo:latitude 48.839947 ;
+    geo:longitude 2.397822 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9713> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9713" ;
+    geo:latitude 48.839947 ;
+    geo:longitude 2.397822 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9811> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9811" ;
+    geo:latitude 48.84998 ;
+    geo:longitude 2.36192 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9812> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9812" ;
+    geo:latitude 48.84998 ;
+    geo:longitude 2.36192 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9813> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9813" ;
+    geo:latitude 48.84998 ;
+    geo:longitude 2.36192 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9911> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9911" ;
+    geo:latitude 48.8778 ;
+    geo:longitude 2.39182 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9912> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "E/F"^^xsd:string ;
+    mv:id "FRV75EBELI9912" ;
+    geo:latitude 48.8778 ;
+    geo:longitude 2.39182 .
+
+<http://www.semweb.com/project/electric_charger#FRV75EBELI9913> ex:IsAvailable "Disponible"^^xsd:string ;
+    mv:PlugType "CHAdeMO"^^xsd:string,
+        "Combo"^^xsd:string,
+        "E/F"^^xsd:string,
+        "T2"^^xsd:string,
+        "T3"^^xsd:string ;
+    mv:id "FRV75EBELI9913" ;
+    geo:latitude 48.8778 ;
+    geo:longitude 2.39182 .
+
