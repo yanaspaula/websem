@@ -3,6 +3,7 @@ import json
 from rdflib import URIRef, BNode, Literal, Graph
 from rdflib import Namespace
 from rdflib.namespace import RDF, FOAF, RDFS, XSD
+from SPARQLWrapper import SPARQLWrapper, JSON, POST, DIGEST, CSV
 
 # Namespaces
 mv = Namespace('http://schema.mobivoc.org/#')
@@ -79,6 +80,26 @@ for row in df_parking:
     graphP.add((item, ex.hastype, park_type))
 
 graphP.serialize(destination="df_parking.ttl", format="turtle")
+
+# Automatisation de l'upload sur Fuseki 
+for s,p,o in graphP:
+    print(s,p,o)
+
+    sparql = SPARQLWrapper("http://localhost:3030/test")
+    sparql.setHTTPAuth(DIGEST)
+    sparql.setMethod(POST)
+    query = '''             PREFIX ex: <http://example.com/#>
+                            PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+                            PREFIX mv: <http://schema.mobivoc.org/#>
+                            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                            INSERT { 
+                    '''
+    query+= '<{}> {} {} .'.format(s,p,o)
+    query+= "}"
+    sparql.setQuery( query)
+    results = sparql.query()
+    print(results.response.read())
+
 
 
 """ 
