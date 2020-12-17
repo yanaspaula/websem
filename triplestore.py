@@ -107,19 +107,3 @@ chargeurs_data = MultipartEncoder(fields={'file': ('df_bornes.ttl', open('df_bor
 parking_data = MultipartEncoder(fields={'file': ('df_parking.ttl', open('df_parking.ttl', 'rb'), 'text/turtle')}) 
 put_bornes = requests.put('http://localhost:3030/ds/data?graph=http://www.semweb.com/project/electric_charger#', data=chargeurs_data, auth=('admin','mypassword'),headers={'Content-Type': chargeurs_data.content_type})
 put_parking = requests.put('http://localhost:3030/ds/data?graph=http://www.semweb.com/project/parking_station#', data=parking_data, auth=('admin','mypassword'),headers={'Content-Type': parking_data.content_type})
-
-# Preliminar SPARQL
-# prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-
-# SELECT ?g ?subject ?predicate ?object
-# FROM NAMED <http://www.semweb.com/project/parking_station>
-# FROM NAMED <http://www.semweb.com/project/electric_charger>
-# WHERE {
-#   GRAPH ?g{
-#   ?subject ?predicate ?object
-#   }
-# }
-
-# Sources : 
-# https://medium.com/@rrichajalota234/how-to-apache-jena-fuseki-3-x-x-1304dd810f09
-# https://stackoverflow.com/questions/54549464/programmaticaly-upload-dataset-to-fuseki
