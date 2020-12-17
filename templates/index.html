@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SemWeb Project</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            background-color: #fdfdfd;
+        }
+
+        .shadow {
+            box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-danger {
+            color: #6610f2;
+            background-color: #6610f2;
+            border-color: #dc281e;
+        }
+
+        .masthead {
+            background: #3398E1;
+            height: auto;
+            padding-bottom: 15px;
+            box-shadow: 0 16px 48px #E3E7EB;
+            padding-top: 10px;
+        }
+    </style>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.emse.fr/~zimmermann/Teaching/SemWeb/project.html">Semantic Web
+                Project</a>
+            <a class="navbar-brand" href="https://github.com/yanaspaula/websem">Source Code</a>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <header class="masthead">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-md-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h3 class=" site-heading my-1 mt-3 text-white text-center"> PARKS NEAR ME IN PARIS </h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- The core of the page -->
+
+    <!-- The map layout-->
+    <div class="container-fluid mx-auto">
+        <div class="col-md-12 card mb-8  mt-3  mx-auto">
+            <br>
+            <div id="map" style="height: 250px;"></div>
+            <br>
+        </div>
+    </div><br>
+
+    <!-- The buttons -->
+    <div class="container my-3 light">
+        <div class="col-md-16 text-center">
+            <button type="button" class="btn btn-primary" onclick="Stations()">Show available parks</button>
+        </div>
+    </div>
+    <div class="container my-3 light">
+        <div class="col-md-16 text-center">
+            <button type="button" class="btn btn-primary" onclick="Chargers()">Show parks with available charge points
+                for
+                electrical vehiculs</button>
+        </div>
+    </div>
+
+    <!-- The Scripts -->
+    <script type="text/javascript">
+        // Read the data sent by the app (the results of SPARQL requests)
+        var parks = '{{ parks|tojson }}';
+        var chargers = '{{ chargers|tojson }}';
+
+        // Choose the first park to center our map
+        var lat = JSON.parse(chargers)[0]['latitude']['value'];
+        var long = JSON.parse(chargers)[0]['longitude']['value'];
+
+        // Initialize the map 
+        var map = L.map('map').setView([lat, long], 15);
+        var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        });
+        map.addLayer(layer);
+
+        // This function adds marks on the available station in current time
+        function Stations() {
+            // console.log(data);
+            var values = JSON.parse(parks)
+            for (var i = 0; i < values.length; i++) {
+                var lat = values[i]['latitude']['value'];
+                var long = values[i]['longitude']['value'];
+                var places = values[i]['places']['value'];
+                var type = values[i]['type']['value'];
+                if (places > 0) {
+                    L.marker([lat, long]).addTo(map)
+                        .bindPopup("<strong> Free Places :" + places + "<br>Station type :" + type + " </strong>").openPopup();
+                }
+            }
+        }
+
+        // This function adds marks on the available chargers in current time
+        function Chargers() {
+            //console.log(chargers);
+            var values = JSON.parse(chargers)
+            for (var i = 0; i < values.length; i++) {
+                var lat = values[i]['latitude']['value'];
+                var long = values[i]['longitude']['value'];
+                var plug = values[i]['plug']['value']
+                L.marker([lat, long]).addTo(map)
+                        .bindPopup("<strong> Plug types: <br>" + plug+ " </strong>").openPopup();
+            }
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-grey">
+        <p class="m-0 text-dark text-center ">By &copy; Hanane OUBLOHOU and Yana SOARES DE PAULA</p>
+    </footer>
+</body>
+
+
+
+</html>
