@@ -1,0 +1,66 @@
+1. Find parking lots with its real-time (dynamic) free places and respective type.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.com/#>
+PREFIX geo: <https://schema.org/GeoCoordinates/>
+PREFIX mv: <http://schema.mobivoc.org/#>
+
+SELECT ?latitude ?longitude ?places ?type
+WHERE {
+  GRAPH <http://www.semweb.com/project/parking_station>
+  {
+    ?item geo:latitude ?latitude ;
+          geo:longitude ?longitude;
+          ex:hasParking 
+        [ 
+      		mv:RealTimeCapacity ?places;
+      		mv:ParkingFacility ?type 
+    	]
+  }
+}
+
+------------------------------------------------------------------
+2. Find ALL electric chargers with their respective type and status.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.com/#>
+PREFIX geo: <https://schema.org/GeoCoordinates/>
+PREFIX mv: <http://schema.mobivoc.org/#>
+
+SELECT ?latitude ?longitude ?plug ?bool ?status
+WHERE {
+  GRAPH <http://www.semweb.com/project/electric_charger>
+  {
+    ?item geo:latitude ?latitude ;
+          geo:longitude ?longitude ;
+          ex:hasPlug
+        [ 
+      		mv:PlugType ?plug ;
+      		mv:cableAvailable ?bool ;
+    		ex:status ?status
+    	]
+  }
+}
+------------------------------------------------------------------
+3. Find DISPONIBLE electric chargers with their respective type and status.
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.com/#>
+PREFIX geo: <https://schema.org/GeoCoordinates/>
+PREFIX mv: <http://schema.mobivoc.org/#>
+
+SELECT ?latitude ?longitude ?plug ?bool ?status
+WHERE {
+  GRAPH <http://www.semweb.com/project/electric_charger>
+  {
+    ?item geo:latitude ?latitude ;
+          geo:longitude ?longitude ;
+          ex:hasPlug
+        [ 
+      		mv:PlugType ?plug ;
+      		mv:cableAvailable ?bool ;
+    		ex:status ?status
+    	]
+  }
+  FILTER regex(?status, "Disponible")
+}
