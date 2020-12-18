@@ -1,3 +1,19 @@
+0. Preliminar SPARQL
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://example.com/#>
+PREFIX geo: <https://schema.org/GeoCoordinates/>
+PREFIX mv: <http://schema.mobivoc.org/#>
+
+SELECT ?g ?subject ?predicate ?object
+FROM NAMED <http://www.semweb.com/project/parking_station>
+FROM NAMED <http://www.semweb.com/project/electric_charger>
+WHERE {
+   GRAPH ?g{
+        ?subject ?predicate ?object
+   }
+}
+------------------------------------------------------------------
 1. Find parking lots with its real-time (dynamic) free places and respective type.
 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -5,15 +21,17 @@ PREFIX ex: <http://example.com/#>
 PREFIX geo: <https://schema.org/GeoCoordinates/>
 PREFIX mv: <http://schema.mobivoc.org/#>
 
-SELECT ?latitude ?longitude ?places ?type
+SELECT ?latitude ?longitude ?id ?parking_name ?places ?type
 WHERE {
   GRAPH <http://www.semweb.com/project/parking_station>
   {
     ?item geo:latitude ?latitude ;
-          geo:longitude ?longitude;
+          geo:longitude ?longitude ;
+          mv:id ?id ;
+          mv:name ?parking_name ;
           ex:hasParking 
         [ 
-      		mv:RealTimeCapacity ?places;
+      		mv:RealTimeCapacity ?places ;
       		mv:ParkingFacility ?type 
     	]
   }
@@ -27,12 +45,14 @@ PREFIX ex: <http://example.com/#>
 PREFIX geo: <https://schema.org/GeoCoordinates/>
 PREFIX mv: <http://schema.mobivoc.org/#>
 
-SELECT ?latitude ?longitude ?plug ?bool ?status
+SELECT ?latitude ?longitude ?id ?station_name ?plug ?bool ?status
 WHERE {
   GRAPH <http://www.semweb.com/project/electric_charger>
   {
     ?item geo:latitude ?latitude ;
           geo:longitude ?longitude ;
+          mv:id ?id ;
+          mv:name ?station_name ;
           ex:hasPlug
         [ 
       		mv:PlugType ?plug ;
@@ -49,12 +69,14 @@ PREFIX ex: <http://example.com/#>
 PREFIX geo: <https://schema.org/GeoCoordinates/>
 PREFIX mv: <http://schema.mobivoc.org/#>
 
-SELECT ?latitude ?longitude ?plug ?bool ?status
+SELECT ?latitude ?longitude ?id ?station_name ?plug ?bool ?status
 WHERE {
   GRAPH <http://www.semweb.com/project/electric_charger>
   {
     ?item geo:latitude ?latitude ;
           geo:longitude ?longitude ;
+          mv:id ?id ;
+          mv:name ?station_name ;
           ex:hasPlug
         [ 
       		mv:PlugType ?plug ;
