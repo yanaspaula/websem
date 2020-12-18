@@ -3,153 +3,206 @@
 @prefix mv: <http://schema.mobivoc.org/#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.semweb.com/project/ParkingStation#1151> ex:hasFreePlaces 0,
-        4,
-        7 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1151> ex:hasParking [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 7 ],
+        [ mv:ParkingFacility "ELECTRIC_CAR"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "DISABLED"^^xsd:string ;
+            mv:RealTimeCapacity 4 ] ;
     mv:id "1151" ;
+    mv:name "Parking Anvers"^^xsd:string ;
     geo:latitude 48.882697 ;
     geo:longitude 2.344013 .
 
-<http://www.semweb.com/project/ParkingStation#1152> ex:hasFreePlaces 0,
-        32 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1152> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 35 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1152" ;
+    mv:name "Parking Hôpital Sainte Anne"^^xsd:string ;
     geo:latitude 48.827057 ;
     geo:longitude 2.341523 .
 
-<http://www.semweb.com/project/ParkingStation#1401> ex:hasFreePlaces 3,
-        10,
-        11,
-        330 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1401> ex:hasParking [ mv:ParkingFacility "ELECTRIC_CAR"^^xsd:string ;
+            mv:RealTimeCapacity 3 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 330 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 10 ],
+        [ mv:ParkingFacility "DISABLED"^^xsd:string ;
+            mv:RealTimeCapacity 11 ] ;
     mv:id "1401" ;
+    mv:name "Parking Meyerbeer Opéra"^^xsd:string ;
     geo:latitude 48.871505 ;
     geo:longitude 2.333759 .
 
-<http://www.semweb.com/project/ParkingStation#1452> ex:hasFreePlaces 0 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1452> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1452" ;
+    mv:name "Parking Maubert Collège des Bernardins"^^xsd:string ;
     geo:latitude 48.849577 ;
     geo:longitude 2.350867 .
 
-<http://www.semweb.com/project/ParkingStation#1501> ex:hasFreePlaces 3,
-        127 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1501> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 133 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 3 ] ;
     mv:id "1501" ;
+    mv:name "Parking Ecole de Médecine"^^xsd:string ;
     geo:latitude 48.850912 ;
     geo:longitude 2.341171 .
 
-<http://www.semweb.com/project/ParkingStation#1502> ex:hasFreePlaces 0,
-        16,
-        97,
-        788 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1502> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 830 ],
+        [ mv:ParkingFacility "ELECTRIC_CAR"^^xsd:string ;
+            mv:RealTimeCapacity 1 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 93 ],
+        [ mv:ParkingFacility "DISABLED"^^xsd:string ;
+            mv:RealTimeCapacity 14 ] ;
     mv:id "1502" ;
+    mv:name "Parking Méditerranée - Gare de Lyon"^^xsd:string ;
     geo:latitude 48.845002 ;
     geo:longitude 2.375691 .
 
-<http://www.semweb.com/project/ParkingStation#1503> ex:hasFreePlaces 10,
-        25 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1503> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 43 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 30 ] ;
     mv:id "1503" ;
+    mv:name "Parking Mairie du 17ème"^^xsd:string ;
     geo:latitude 48.884606 ;
     geo:longitude 2.321516 .
 
-<http://www.semweb.com/project/ParkingStation#1504> ex:hasFreePlaces 0,
-        7 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1504> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 34 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1504" ;
+    mv:name "Parking Reuilly-Diderot"^^xsd:string ;
     geo:latitude 48.84622 ;
     geo:longitude 2.387776 .
 
-<http://www.semweb.com/project/ParkingStation#1551> ex:hasFreePlaces 0 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1551> ex:hasParking [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1551" ;
+    mv:name "Parking Hôtel de Ville"^^xsd:string ;
     geo:latitude 48.8566 ;
     geo:longitude 2.349481 .
 
-<http://www.semweb.com/project/ParkingStation#1601> ex:hasFreePlaces 0,
-        222 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1601> ex:hasParking [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1601" ;
+    mv:name "Parking Pyramides"^^xsd:string ;
     geo:latitude 48.864994 ;
     geo:longitude 2.33298 .
 
-<http://www.semweb.com/project/ParkingStation#1602> ex:hasFreePlaces 30,
-        158 ;
-    ex:hastype "relais"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1602> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 155 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 30 ] ;
     mv:id "1602" ;
+    mv:name "Parc Relais Val d'Europe - Serris Montévrain"^^xsd:string ;
     geo:latitude 48.85378 ;
     geo:longitude 2.7689 .
 
-<http://www.semweb.com/project/ParkingStation#1603> ex:hasFreePlaces 69 ;
-    ex:hastype "relais"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1603> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 70 ] ;
     mv:id "1603" ;
+    mv:name "Parc Relais Vaires Torcy"^^xsd:string ;
     geo:latitude 48.8759 ;
     geo:longitude 2.64306 .
 
-<http://www.semweb.com/project/ParkingStation#1604> ex:hasFreePlaces 0 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1604> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 62 ] ;
     mv:id "1604" ;
+    mv:name "Parking Vaires Centre Ville"^^xsd:string ;
     geo:latitude 48.874147 ;
     geo:longitude 2.640764 .
 
-<http://www.semweb.com/project/ParkingStation#1651> ex:hasFreePlaces 11,
-        47,
-        86 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1651> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 74 ],
+        [ mv:ParkingFacility "TRUCK"^^xsd:string ;
+            mv:RealTimeCapacity 11 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 43 ] ;
     mv:id "1651" ;
+    mv:name "Parking Porte d'Orléans"^^xsd:string ;
     geo:latitude 48.82097 ;
     geo:longitude 2.324525 .
 
-<http://www.semweb.com/project/ParkingStation#1753> ex:hasFreePlaces 0,
-        3,
-        78 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1753> ex:hasParking [ mv:ParkingFacility "DISABLED"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 82 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "ELECTRIC_CAR"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1753" ;
+    mv:name "Parking Lagrange-Maubert"^^xsd:string ;
     geo:latitude 48.850541 ;
     geo:longitude 2.348671 .
 
-<http://www.semweb.com/project/ParkingStation#1754> ex:hasFreePlaces 3,
-        12,
-        447 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1754> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 450 ],
+        [ mv:ParkingFacility "DISABLED"^^xsd:string ;
+            mv:RealTimeCapacity 12 ],
+        [ mv:ParkingFacility "ELECTRIC_CAR"^^xsd:string ;
+            mv:RealTimeCapacity 3 ] ;
     mv:id "1754" ;
+    mv:name "Parking Hôpital Henri Mondor"^^xsd:string ;
     geo:latitude 48.798667 ;
     geo:longitude 2.451794 .
 
-<http://www.semweb.com/project/ParkingStation#1805> ex:hasFreePlaces 30 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1805> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 26 ] ;
     mv:id "1805" ;
+    mv:name "Parking Charléty Coubertin"^^xsd:string ;
     geo:latitude 48.817356 ;
     geo:longitude 2.344178 .
 
-<http://www.semweb.com/project/ParkingStation#1851> ex:hasFreePlaces 0,
-        117 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1851> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 123 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ] ;
     mv:id "1851" ;
+    mv:name "Parking Rivoli-Sébastopol"^^xsd:string ;
     geo:latitude 48.858396 ;
     geo:longitude 2.350484 .
 
-<http://www.semweb.com/project/ParkingStation#1901> ex:hasFreePlaces 5,
-        262 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1901> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 276 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 3 ] ;
     mv:id "1901" ;
+    mv:name "Parking Bercy Seine"^^xsd:string ;
     geo:latitude 48.833875 ;
     geo:longitude 2.382319 .
 
-<http://www.semweb.com/project/ParkingStation#1951> ex:hasFreePlaces 0,
-        100 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1951> ex:hasParking [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 0 ],
+        [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 57 ] ;
     mv:id "1951" ;
+    mv:name "Parking Hôpital Saint Louis"^^xsd:string ;
     geo:latitude 48.873379 ;
     geo:longitude 2.369972 .
 
-<http://www.semweb.com/project/ParkingStation#1953> ex:hasFreePlaces 7,
-        148 ;
-    ex:hastype "public"^^xsd:string ;
+<http://www.semweb.com/project/parking_station#1953> ex:hasParking [ mv:ParkingFacility "STANDARD"^^xsd:string ;
+            mv:RealTimeCapacity 151 ],
+        [ mv:ParkingFacility "MOTOR_BIKE"^^xsd:string ;
+            mv:RealTimeCapacity 7 ] ;
     mv:id "1953" ;
+    mv:name "Parking Hôpital Robert-Debré"^^xsd:string ;
     geo:latitude 48.87929 ;
     geo:longitude 2.40177 .
 

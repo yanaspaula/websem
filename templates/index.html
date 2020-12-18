@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>SemWeb Project</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
@@ -9,7 +8,16 @@
     <meta name="google" content="notranslate" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    
+    <!-- Embedded JSON-LD in HTML-->
+    <script type = 'application/ld+json'>
+        {{ jsonldChargers|tojson }}
+    </script>
+    <script type = 'application/ld+json'>
+        {{ jsonldParks|tojson }}
+    </script>
+
 </head>
 
 <body>
@@ -47,8 +55,8 @@
             <a class="navbar-brand" href="https://github.com/yanaspaula/websem">Source Code</a>
         </div>
     </nav>
-    <!-- Header -->
 
+    <!-- Header -->
     <header class="masthead">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -64,7 +72,6 @@
     </header>
 
     <!-- The core of the page -->
-
     <!-- The map layout-->
     <div class="container-fluid mx-auto">
         <div class="col-md-12 card mb-8  mt-3  mx-auto">
@@ -73,7 +80,6 @@
             <br>
         </div>
     </div><br>
-
     <!-- The buttons -->
     <div class="container my-3 light">
         <div class="col-md-16 text-center">
@@ -84,12 +90,12 @@
         <div class="col-md-16 text-center">
             <button type="button" class="btn btn-primary" onclick="Chargers()">Show parks with available charge points
                 for
-                electrical vehiculs</button>
+                electrical vehicules</button>
         </div>
     </div>
-
     <!-- The Scripts -->
-    <script type="text/javascript">
+    <script type="text/javascript">    
+
         // Read the data sent by the app (the results of SPARQL requests)
         var parks = '{{ parks|tojson }}';
         var chargers = '{{ chargers|tojson }}';
@@ -107,40 +113,40 @@
 
         // This function adds marks on the available station in current time
         function Stations() {
-            // console.log(data);
             var values = JSON.parse(parks)
+            console.log(values[0])
             for (var i = 0; i < values.length; i++) {
+                var name = values[i]['parking_name']['value'];
                 var lat = values[i]['latitude']['value'];
                 var long = values[i]['longitude']['value'];
                 var places = values[i]['places']['value'];
                 var type = values[i]['type']['value'];
                 if (places > 0) {
                     L.marker([lat, long]).addTo(map)
-                        .bindPopup("<strong> Free Places :" + places + "<br>Station type :" + type + " </strong>").openPopup();
+                        .bindPopup("<strong> Name :"+name+"<br>Free Places :" + places + "<br>Station type :" + type + " </strong>").openPopup();
                 }
             }
         }
 
         // This function adds marks on the available chargers in current time
-        function Chargers() {
-            //console.log(chargers);
+        function Chargers() { 
             var values = JSON.parse(chargers)
+            console.log(values[0])
             for (var i = 0; i < values.length; i++) {
+                var name = values[i]['id']['value'];
                 var lat = values[i]['latitude']['value'];
                 var long = values[i]['longitude']['value'];
                 var plug = values[i]['plug']['value']
                 L.marker([lat, long]).addTo(map)
-                        .bindPopup("<strong> Plug types: <br>" + plug+ " </strong>").openPopup();
+                        .bindPopup("<strong>  Name :"+name+"<br>Plug types: <br>" + plug+ " </strong>").openPopup();
             }
-        }
+        }    
     </script>
 
     <!-- Footer -->
     <footer class="py-3 bg-grey">
         <p class="m-0 text-dark text-center ">By &copy; Hanane OUBLOHOU and Yana SOARES DE PAULA</p>
     </footer>
+
 </body>
-
-
-
 </html>
